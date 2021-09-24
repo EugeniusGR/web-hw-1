@@ -1,0 +1,19 @@
+.container {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: rgb(20, 176, 102);
+}
+
+.mainInfo {
+  margin-top: 50px;
+  display: flex;
+}
+
+.textInfo {
+  margin: 0 30px;
+  color: #000;
+  display: block;
+  max-width: 400px;
+}

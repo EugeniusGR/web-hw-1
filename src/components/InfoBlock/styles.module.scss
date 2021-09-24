@@ -1,0 +1,26 @@
+.container{
+    background: linear-gradient(to bottom,rgb(20,176,102), rgb(66,240,164));
+    color: #fff;
+    height: 500px;
+    display: flex;
+}
+
+.textContainer{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    margin-top: 140px;
+    font-size: 27px;
+}
+
+.imageContainer{
+    flex: 1;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.imageCiber{
+    position: absolute;
+    height: 650px;
+}

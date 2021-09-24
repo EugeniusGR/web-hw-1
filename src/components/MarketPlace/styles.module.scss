@@ -1,0 +1,22 @@
+.container {
+  background: linear-gradient(
+    to top,
+    rgba(20, 176, 102, 0.2),
+    rgba(66, 240, 164, 0.4)
+  );
+  color: rgb(20, 176, 102);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px 0;
+  backdrop-filter: blur(25px);
+}
+
+.listContainer {
+  padding: 30px 300px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 0.3fr));
+  gap: 2rem;
+  justify-content: center;
+  width: 100%;
+}

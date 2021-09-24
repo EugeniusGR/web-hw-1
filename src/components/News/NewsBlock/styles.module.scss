@@ -1,0 +1,38 @@
+.container {
+  background-color: rgb(241, 247, 242);
+  border: 1px solid rgb(71, 163, 87);
+  border-radius: 5px;
+  max-width: 800px;
+  padding: 20px;
+  padding-left: 0;
+  margin-top: 30px;
+  cursor: pointer;
+  display: flex;
+}
+
+.container:hover {
+  background-color: rgb(231, 248, 234);
+}
+
+.imageContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  margin-bottom: 12px;
+}
+
+.body {
+  margin-bottom: 10px;
+}
+
+.seeAll {
+  color: rgb(46, 170, 66);
+  cursor: pointer;
+}
+
+.seeAll:hover {
+  color: rgb(16, 83, 27);
+}

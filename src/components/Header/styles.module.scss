@@ -1,0 +1,31 @@
+.header {
+  background-color: rgb(20, 176, 102);
+  color: #fff;
+  padding: 0 100px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  position: sticky;
+}
+
+.headerName {
+  font-size: 22px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.listContainer {
+  display: flex;
+  margin-left: auto;
+}
+
+.listUl {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+
+  li {
+    margin-left: 20px;
+    cursor: pointer;
+  }
+}
